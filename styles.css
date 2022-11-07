@@ -36,4 +36,15 @@ header img{
     width: 150px;
     height: 24px;
     margin-top: 60px;
+    align-self: center;
+}
+
+.header--title-container{
+    width: 100%;
+    min-width: 285px;
+    max-height: 900px;
+    height: 215px;
+    margin-top: 45px;
+    text-align: center;
+    align-self: center;
 }
