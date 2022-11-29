@@ -465,8 +465,11 @@ main{
     color: #757575;
 }
 
+
+
 .plans-container--card{
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
@@ -474,18 +477,18 @@ main{
     margin: 50px auto 0;
     padding: 0 15px;
     background-color: var(--just-white);
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
     border: 2px solid var(--grey);
     left: auto;
 }
 
-.recomended{
-    display: inline-block;
-    position: relative;
-    bottom: 17px;    
+.recommended {
+    position: absolute;
     width: 120px;
     height: 31px;
+    top: -15px;
+    left: calc(50% - 60px);
     font-size: 1.2rem;
     padding: 6px;
     background-color: var(--bitcoin-orange);
@@ -493,7 +496,7 @@ main{
     color: var(--just-white);
 }
 .plan-card--title {
-    padding-top: 2px;
+    padding-top: 30px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
@@ -541,20 +544,9 @@ main{
 }
 
 /*Plan basico*/
-.basic{
-    display: inline-block;
-    position: relative;
-    bottom: 17px;    
-    width: 120px;
-    height: 31px;
-    font-size: 1.2rem;
-    padding: 6px;
-    background-color: var(--secondary-blue);
-    border-radius: 8px;
-    color: var(--just-white);
-}
 .plans-container--card2{
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
@@ -562,13 +554,25 @@ main{
     margin: 50px auto 0;
     padding: 0 15px;
     background-color: var(--just-white);
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
     border: 2px solid var(--grey);
-    left: auto;
 }
+.basic{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    top: -15px;
+    left: calc(50% - 60px);
+    font-size: 1.2rem;
+    padding: 6px;
+    background-color: var(--secondary-blue);
+    border-radius: 8px;
+    color: var(--just-white);
+}
+
 .plan-card--title2 {
-    padding-top: 2px;
+    padding-top: 30px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
@@ -616,20 +620,9 @@ main{
     vertical-align: text-bottom;
 }
 /*Plan ilimitado*/
-.ilimit{
-    display: inline-block;
-    position: relative;
-    bottom: 17px;    
-    width: 120px;
-    height: 31px;
-    font-size: 1.2rem;
-    padding: 6px;
-    background-color: var(--warm-black);
-    border-radius: 8px;
-    color: var(--just-white);
-}
 .plans-container--card3{
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
@@ -637,13 +630,25 @@ main{
     margin: 50px auto 0;
     padding: 0 15px;
     background-color: var(--just-white);
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
     border: 2px solid var(--grey);
-    left: auto;
 }
+.ilimit{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    top: -15px;
+    left: calc(50% - 60px);
+    font-size: 1.2rem;
+    padding: 6px;
+    background-color: var(--warm-black);
+    border-radius: 8px;
+    color: var(--just-white);
+}
+
 .plan-card--title3 {
-    padding-top: 2px;
+    padding-top: 30px;
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
